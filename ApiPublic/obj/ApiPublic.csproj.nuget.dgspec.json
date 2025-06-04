@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\ApiPublic\\ApiPublic.csproj": {}
+    "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\APIPublic\\ApiPublic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\ApiPublic\\ApiPublic.csproj": {
+    "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\APIPublic\\ApiPublic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\ApiPublic\\ApiPublic.csproj",
+        "projectUniqueName": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\APIPublic\\ApiPublic.csproj",
         "projectName": "ApiPublic",
-        "projectPath": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\ApiPublic\\ApiPublic.csproj",
+        "projectPath": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\APIPublic\\ApiPublic.csproj",
         "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\ApiPublic\\obj\\",
+        "outputPath": "C:\\Users\\Alexis\\netcoreProjectsCampus\\Public\\APIPublic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config"

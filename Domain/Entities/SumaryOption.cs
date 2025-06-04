@@ -7,10 +7,10 @@ namespace Domain.Entities
 {
     public class SumaryOption
     {
-         public int Id { get; set; }
-        public int IdSurvey { get; set; }
+        public long Id { get; set; }
+        public long IdSurvey { get; set; }
         public string? CodeNumber { get; set; }
-        public int IdQuestion { get; set; }
+        public long IdQuestion { get; set; }
         public string? ValueR { get; set; }
 
         public Survey Survey { get; set; } = null!;

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Configuration
 {
-    public class CategoryOptionConfiguration
+    public class CategoryOptionConfiguration : IEntityTypeConfiguration<CategoryOption>
     {
         public void Configure(EntityTypeBuilder<CategoryOption> builder)
         {

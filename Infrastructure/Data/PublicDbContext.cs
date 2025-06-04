@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Infrastructure.Configuration;
+using System.Reflection;
 
-namespace Infrastructure;
+namespace Infrastructure.Data;
 
-public class AppDbContext : DbContext
+public class PublicDbContext : DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public PublicDbContext(DbContextOptions<PublicDbContext> options) : base(options) { }
 
     public DbSet<Survey> Surveys { get; set; }
     public DbSet<Chapter> Chapters { get; set; }
@@ -25,6 +21,6 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.ApplyConfigurationsFromAssembly(A.GetExecutingAssembly());
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 }
